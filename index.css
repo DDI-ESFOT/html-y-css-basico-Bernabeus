@@ -1,0 +1,109 @@
+body {
+    background-color: #555;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    line-height: 18px;
+    color: #333333;
+}
+
+a { 
+    color: #FE7F0E;  
+}
+
+.main-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    color: #fff;
+    padding-top: 30px;
+}
+
+header h1, header h2 {
+    margin: 0;
+    font-weight: normal;
+}
+
+header h2 {
+    color: #cccccc;
+}
+
+section {
+    height: 300px;
+    box-shadow: 0px 0px 10px 10px;
+}
+
+nav ul {
+    background-color: #ff7d00;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    display: flex;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.content-wrapper {
+    background-color: #fff;
+    height: 500px;
+    padding: 10px 10px;
+}
+
+.left {
+    width: 950px;
+    float: left;
+    text-align: justify;
+}
+
+.left h2 a{
+    font-size: 24px;
+    letter-spacing: -3px;
+    font-weight: 100;
+    padding : 10px 0 15px 0;
+}
+
+.right {
+    width: 150px;
+    float: right;
+    padding: 10px;
+    border-left: 1px solid #bbb;
+    font-size: 12px;
+}
+
+.right ul {
+    list-style-type: none;
+    padding: 5px 10px 10px 10px;
+}
+
+.right h2 {
+    height: 30px;
+    font-size: 12px;
+    color: #666;
+    line-height: 30px;
+}
+
+.right a { 
+    text-decoration: none 
+}
+
+#bottom {
+    padding: 10px 0;
+}
+    
+#footer {
+    text-align: center;
+    color: #eee;
+    font-size: 11px;
+    padding: 0 0 10px 0;
+}
